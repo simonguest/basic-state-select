@@ -1,0 +1,27 @@
+{
+  "name": "basic-state-select",
+  "version": "0.1.0",
+  "authors": [
+    "me@simonguest.com"
+  ],
+  "description": "A Web component (written using Polymer) that provides a basic control for showing a list of the 50 states in the US",
+  "main": "basic-state-select.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#master"
+  },
+  "keywords": [
+    "webcomponents",
+    "polymer",
+    "states",
+    "select"
+  ],
+  "license": "Apache 2",
+  "homepage": "https://github.com/simonguest/basic-state-select",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

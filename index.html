@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="import" href="basic-state-select.html">
+</head>
+<body>
+<h1>State Selector Demo</h1>
+<basic-state-select id="states"
+                    selectText="Please select..."
+                    defaultState="CA"
+                    removeSelectValue="true"></basic-state-select>
+</body>
+<script>
+    var states = document.getElementById('states');
+    states.addEventListener('stateChanged', function(e) {
+        console.log('state was changed to '+ e.detail.state);
+    });
+</script>
+</html>
