@@ -28,10 +28,10 @@ To use, import the required basic-state-select.html reference, and create a new 
                             defaultState="CA"
                             removeSelectValue="true"></basic-state-select>
       </body>
-    <script>
+      <script>
         var states = document.getElementById('states');
         states.addEventListener('stateChanged', function(e) {
             console.log('state was changed to '+ e.detail.state);
         });
-    </script>
+      </script>
     </html>
