@@ -17,7 +17,6 @@ Perform an bower install in order to install the required dependencies:
 
 To use, import the required basic-state-select.html reference, and create a new tag:
 
-    ```html
     <!DOCTYPE html>
     <html>
       <head>
@@ -36,4 +35,3 @@ To use, import the required basic-state-select.html reference, and create a new 
         });
     </script>
     </html>
-    ```
